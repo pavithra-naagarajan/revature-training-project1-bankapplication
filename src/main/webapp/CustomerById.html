@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Find Customer By Id</title>
+<style>
+
+@media only screen and (min-width:600px)
+{
+	.userId:before{
+	content:"Enter Customer Id";
+	
+	}
+}
+@media only screen and (min-width:780px)
+{
+	.userId:before{
+	content:"Please enter the Customer Id to find";
+	}
+}
+@media only screen and (max-width:320px)
+{
+	.userId:before{
+	content:"Customer Id";
+	}
+}
+</style>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="css/styles.css" type="text/css"/>
+</head>
+<h1><center>Welcome!Enter Customer Id to find</center></h1>
+<h1>***********************************************************************************************************</h1>
+<body>
+<form action="CustomerById">
+<center><table cellpadding="10" cellspacing="10">
+<div class="userId">
+<h3><input type="text" name="customerId" id="customerId"></h3>
+</div>
+<tr>
+<td ><input type="submit" value="Go" class="alert alert-danger"></td>
+
+<td><input type="reset" value="clear" class="alert alert-warning"></td>
+
+</tr>
+</table></center>
+</form>
+</body>
+</html>
+
+

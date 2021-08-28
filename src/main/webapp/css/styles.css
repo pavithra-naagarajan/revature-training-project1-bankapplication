@@ -1,0 +1,15 @@
+ @charset "ISO-8859-1";
+body{
+	background-color:lightblue;
+	
+}
+A:link{
+	color:red;
+}
+A:visited{
+	color:blue;
+}
+A:hover{
+	color:green;
+}
+
