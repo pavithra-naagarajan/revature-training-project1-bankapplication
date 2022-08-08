@@ -13,3 +13,4 @@
 <li>Edit user Details</li>
 </ul> 
 <p>By using this Banking application users can easily perform banking operations.</p>
+readme file edited by Pavithra.N
